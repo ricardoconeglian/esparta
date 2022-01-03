@@ -1,1 +1,35 @@
-<p>lista-insumo works!</p>
+<div class="card">
+  <div class="card-header">
+    Cadastro Insumo
+    <div class="container">
+      <button class="btn btn-success cadastro" (click)="navegaParaCadastraInsumo()">Cadastrar</button>
+    </div>
+  </div>
+
+  <div class="card-body">
+    <table class="table table-hover">
+        <thead>
+            <tr>
+              <th>id</th>
+              <th>Código Sap</th>
+              <th>Nome Insumo</th>
+              <th>Ação</th>
+            </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>522200</td>
+            <td>Insumo 2</td>
+            <td>
+              <button type="button" class="btn btn-primary">Editar</button>
+              <button type="button" class="btn btn-danger">Apagar</button>
+
+            </td>
+          </tr>
+        </tbody>
+
+    </table>
+  </div>
+</div>
+
